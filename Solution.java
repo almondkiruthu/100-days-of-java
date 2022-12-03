@@ -16,6 +16,14 @@ public class Solution {
         System.out.println("Ellie is very smart");
         System.out.println("Ellie is very smart");
         System.out.println("Ellie is very smart");
+        
+        // CHALLENGE:It's currently 3126. My friend was born 8 years ago.
+        // Write a program that displays my friend's birth year
+
+        int year = 3126;
+        int birthyear = year-8;
+        
+        System.out.print("My friend's birth year is: " + birthyear);
 
     }
 

@@ -10,4 +10,7 @@ public class Solution {
         System.out.print("It Is Cool being a programmer");
     }
     
+
+    // WELCOME TO DAY  2 LEARN ABOUT VARIABLES
+    
 }

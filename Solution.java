@@ -25,6 +25,13 @@ public class Solution {
         
         System.out.print("My friend's birth year is: " + birthyear);
 
+        // CHALLENGE:Write a program that declares the following variables in the main method:
+        // String name, int age, and String city.
+
+        String name;
+        int age;
+        String city;
+
     }
 
 }

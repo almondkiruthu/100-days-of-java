@@ -12,5 +12,5 @@ public class Solution {
     
 
     // WELCOME TO DAY  2 LEARN ABOUT VARIABLES
-    
+    // Challenge: Write a program that displays "Ellie is very smart" 5 times. Each time, on a new line.
 }

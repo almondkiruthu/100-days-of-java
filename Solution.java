@@ -6,11 +6,14 @@ public class Solution {
     // SOLUTION
 
     public static void main(String[] args) {
-        System.out.print("It Is Cool being a programmer");
+        System.out.println("It Is Cool being a programmer");
 
         // WELCOME TO DAY 2 LEARN ABOUT VARIABLES
         // Challenge: Write a program that displays "Ellie is very smart" 5 times. Each time, on a new line.
 
+        System.out.println("Ellie is very smart");
+        System.out.println("Ellie is very smart");
+        System.out.println("Ellie is very smart");
         System.out.println("Ellie is very smart");
         System.out.println("Ellie is very smart");
 

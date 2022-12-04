@@ -48,11 +48,11 @@ public class Solution {
 
         System.out.println(x);
         System.out.println(y);
-        // CHALLENGE-2 FOR THE COOMENT LEARNING SECTION:Comment out a few lines to display "2 plus 3 is equal to 5" on the screen.
+        // CHALLENGE-2 FOR THE COMMENT LEARNING SECTION:Comment out a few lines to display "2 plus 3 is equal to 5" on the screen.
 
 
         // SOLUTION:
-        
+
         int a = 3;
         int b = 2;
 
@@ -66,6 +66,21 @@ public class Solution {
         // System.out.print(" equals ");
         // System.out.print("five");
         System.out.print(a + b);
+
+        // CHALLENGE 3 FOR THE COMMENT LEARNING SECTION: Remove comments from part of the code so that "Happy New Year" appears on the screen.
+
+        // SOLUTION:
+             // String s = "Merry";
+        // System.out.println("Christmas");
+        // System.out.println("Merry New");
+        // System.out.println("weekend");
+        System.out.print("Happy New");
+        // System.out.println("weekend");
+        // System.out.println(s);
+        // System.out.print("Merry New!");
+        System.out.print(" ");
+        System.out.println("Year");
+
     }
 
 }

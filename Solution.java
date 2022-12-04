@@ -48,7 +48,24 @@ public class Solution {
 
         System.out.println(x);
         System.out.println(y);
+        // CHALLENGE-2 FOR THE COOMENT LEARNING SECTION:Comment out a few lines to display "2 plus 3 is equal to 5" on the screen.
 
+
+        // SOLUTION:
+        
+        int a = 3;
+        int b = 2;
+
+        // System.out.print("two");
+        System.out.print(b);
+        System.out.print(" plus ");
+        // System.out.print(" minus ");
+        System.out.print(a);
+        // System.out.print("three");
+        System.out.print(" is equal to ");
+        // System.out.print(" equals ");
+        // System.out.print("five");
+        System.out.print(a + b);
     }
 
 }

@@ -85,9 +85,9 @@ public class Solution {
         // CHALLENGE 4 FOR THE COMMENT SECTION: Comment out some code so that "sum = 12" appears on the screen.
 
         // SOLUTION:
-        int a = 3;
+        int c = 3;
         // int a = 10;
-        int b = 6;
+        int e = 6;
         // int b = 12;
         // int sum = 1 + a + b;
         // int sum = 2 + a + b;

@@ -105,13 +105,13 @@ public class Solution {
         System.out.println(f);
 
         // variables
-        String name = "Toyota";
+        String name1 = "Toyota";
         double engine = 4.7;
-        int year = 2019;
+        int year1 = 2019;
        
-        System.out.println("Name: " + name);
+        System.out.println("Name: " + name1);
         System.out.println("Engine: " + engine);
-        System.out.println("Year: " + year);
+        System.out.println("Year: " + year1);
 
     }
 

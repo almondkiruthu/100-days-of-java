@@ -196,8 +196,8 @@ public class Solution {
         System.out.println(--scoreBob);
 
         // DAYS TO SECONDS CALCULATOR
-        Scanner scanner = new Scanner(System.in);
-        int days = scanner.nextInt();
+        Scanner scanner1 = new Scanner(System.in);
+        int days = scanner1.nextInt();
 
         // your code goes here
 

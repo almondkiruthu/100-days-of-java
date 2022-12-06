@@ -142,6 +142,18 @@ public class Solution {
 
         System.out.println(res);
 
+        // Increment operator
+        int test = 5;
+        ++test;
+
+        System.out.println(test);
+
+        // Decrement operator
+        int test1 = 5;
+        --test1;
+
+        System.out.println(test1);
+
     }
 
 }

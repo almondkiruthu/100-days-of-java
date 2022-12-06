@@ -180,21 +180,30 @@ public class Solution {
         // gained 1 point (6, the first outputted number), and Bob lost 1 point (4, the
         // second outputted number).
 
-
         // Remember the difference between prefix and postfix operators. It will help
         // you a lot in this task.
 
-        // SOLUTION: 
+        // SOLUTION:
         Scanner scanner = new Scanner(System.in);
-       //taking initial score
-       int initScore = scanner.nextInt();
-       int scoreTom = initScore;
-       int scoreBob = initScore;
-       
-       System.out.println("Round 1 results:");
-       //fix
-       System.out.println(++scoreTom);
-       System.out.println(--scoreBob);
+        // taking initial score
+        int initScore = scanner.nextInt();
+        int scoreTom = initScore;
+        int scoreBob = initScore;
+
+        System.out.println("Round 1 results:");
+        // fix
+        System.out.println(++scoreTom);
+        System.out.println(--scoreBob);
+
+        // DAYS TO SECONDS CALCULATOR
+        Scanner scanner = new Scanner(System.in);
+        int days = scanner.nextInt();
+
+        // your code goes here
+
+        int seconds = days * 24 * 60 * 60;
+
+        System.out.println(seconds);
 
     }
 

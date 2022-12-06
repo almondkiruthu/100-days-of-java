@@ -129,6 +129,8 @@ public class Solution {
 
         /*PRIMITIVE OPERATIONS SECTION */
 
+        /*Challenge & Solution */
+
         int beer  = 64;
         int whisky = 23;
        //calculate the sum and output it

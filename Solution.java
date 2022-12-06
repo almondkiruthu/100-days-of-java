@@ -1,3 +1,4 @@
+import java.util.Scanner; 
 
 public class Solution {
 
@@ -112,6 +113,29 @@ public class Solution {
         System.out.println("Name: " + name1);
         System.out.println("Engine: " + engine);
         System.out.println("Year: " + year1);
+        
+
+        // /*Introducing how to get a User input using the scanner class 
+        //  * First I imported the Scanner class check above the Main class.
+        // */
+
+        // // NOW WE DECLARE THE SCANNER CLASS INSTANCE.
+
+        // Scanner myVar = new Scanner(System.in);
+
+        // // let us try to get some input from the user
+
+        // System.out.println(myVar.nextLine());
+
+        /*PRIMITIVE OPERATIONS SECTION */
+
+        int beer  = 64;
+        int whisky = 23;
+       //calculate the sum and output it
+       int bottlesSold = beer + whisky;
+
+       System.out.println("Bottles sold are: " + bottlesSold);
+        
 
     }
 

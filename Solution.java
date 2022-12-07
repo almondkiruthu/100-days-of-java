@@ -342,6 +342,15 @@ public class Solution {
 
             System.out.println(amount23);
 		}
+
+        // ARRAYS: 
+        // TO CALCULATE THE SUM OF THE ELEMENTS IN AN ARRAY 
+        int [ ] myArr = {6, 42, 3, 7};
+        int sumXS=0;
+        for(int xZ=0; xZ<myArr.length; xZ++) {
+            sumXS += myArr[x];
+        }
+        System.out.println(sum);
 		
 		
     }

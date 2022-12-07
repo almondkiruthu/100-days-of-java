@@ -252,5 +252,30 @@ public class Solution {
 
         }
         System.out.println(fact);
+
+        // INTRODUCING THE FOR LOOP CHALLENGE
+        // For Loops
+
+        // You are given code that takes the number of students who enter the university
+        // as input. Let's greet them!
+
+        // Task
+        // Complete the program to output "Welcome" for each student.
+
+        // Sample Input
+        // 2
+
+        // Sample Output
+        // Welcome
+        // Welcome
+
+        // #TAKES AN INPUT FROM THE USER 
+
+        // Scanner scanner = new Scanner(System.in);
+       
+       for(int n = scanner.nextInt(); n > 0; n--){
+          System.out.println("Welcome");
+       }  
+
     }
 }

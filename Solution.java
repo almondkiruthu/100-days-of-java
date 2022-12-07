@@ -303,7 +303,7 @@ public class Solution {
 
            do{
                System.out.println("Write password");
-            //    password = read.nextInt();
+               password = read.nextInt();
            }
            while(password != 8819);
 

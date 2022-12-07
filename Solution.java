@@ -269,13 +269,43 @@ public class Solution {
         // Welcome
         // Welcome
 
-        // #TAKES AN INPUT FROM THE USER 
+        // #TAKES AN INPUT FROM THE USER
 
         // Scanner scanner = new Scanner(System.in);
-       
-       for(int n = scanner.nextInt(); n > 0; n--){
-          System.out.println("Welcome");
-       }  
+
+        for (int n = scanner.nextInt(); n > 0; n--) {
+            System.out.println("Welcome");
+        }
+
+        // INTRODUCING THE DO WHILE LOOP CHALLENGE
+
+        // You're creating a bank security system. The user must insert the correct
+        // password in order to access payments.
+        // The password is 8819.
+
+        // Task
+        // Write a program that will continuously take a password as input and output
+        // Write password, until the client inserts the correct password.
+
+        // Sample Input
+        // 3332
+        // 8819
+
+        // Sample Output
+        // Write password
+        // Write password
+         
+        // #TAKES AN INPUT FROM THE USER
+
+        // Scanner scanner = new Scanner(System.in);
+
+        int password;
+
+           do{
+               System.out.println("Write password");
+            //    password = read.nextInt();
+           }
+           while(password != 8819);
 
     }
 }

@@ -332,26 +332,66 @@ public class Solution {
         // Month 3:
         // Payment: 10% of 16200 = 1620
         // Remaining amount: 14580
-         
-        // SOLUTION: 
+
+        // SOLUTION:
         int amount23;
         int months23 = 3;
-        
-		for(int i = 0; i < months23; i++){
-			amount23 = amount23 - amount23*10/100;
+
+        for (int i = 0; i < months23; i++) {
+            amount23 = amount23 - amount23 * 10 / 100;
 
             System.out.println(amount23);
-		}
+        }
 
-        // ARRAYS: 
-        // TO CALCULATE THE SUM OF THE ELEMENTS IN AN ARRAY 
-        int [ ] myArr = {6, 42, 3, 7};
-        int sumXS=0;
-        for(int xZ=0; xZ<myArr.length; xZ++) {
+        // ARRAYS:
+        // TO CALCULATE THE SUM OF THE ELEMENTS IN AN ARRAY
+        int[] myArr = { 6, 42, 3, 7 };
+        int sumXS = 0;
+        for (int xZ = 0; xZ < myArr.length; xZ++) {
             sumXS += myArr[x];
         }
         System.out.println(sum);
-		
-		
+        // ....
+
+        // THE ENHANCED FOR LOOP
+
+        // CHALLENGE:
+        // Enhanced for Loop
+
+        // Your company is writing a program for a geometry course.
+        // The program takes the number of squares as the first input, creates an array,
+        // and then takes the sides of squares as its elements.
+        // Write the part of the program that receives a list of square sides and prints
+        // the area of those squares for the user.
+
+        // Sample Input
+        // 2
+        // 3
+        // 4
+
+        // Output
+        // 9
+        // 16
+
+        // Explanation
+        // In this example we have 2 squares (the first input) and their sides
+        // accordingly - 3 and 4 (the second and the third inputs). The area of the
+        // first square is 9 (3*3), the second one 16 (4*4).
+
+        // SOLUTION:
+
+        // TAKES THE INPUT FROM THE USER 
+        // Scanner scanner = new Scanner(System.in);
+        // int length = scanner.nextInt();
+        // int[] sides = new int[length];
+        // for (int i = 0; i < length; i++) {
+        //     sides[i] = scanner.nextInt();
+        // }
+        // your code goes here
+        for (int t : sides ) {
+            t = t * t;
+            System.out.println(t);
+        }
+
     }
 }

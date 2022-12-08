@@ -441,10 +441,11 @@ public class Solution {
        double score4 = read.nextDouble();
        double avgScore = getAverageScore(score1, score2, score3, score4);
        System.out.println(avgScore);
-   }
-
-    // create your method here
+       
+       // create your method here
     public static double getAverageScore(double x, double y, double z, double e) {
         return (x + y + z + e) / 4;
     }
-}}
+}
+
+}

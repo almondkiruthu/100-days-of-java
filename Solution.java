@@ -406,7 +406,7 @@ public class Solution {
         // Sample Output:
         // ereht ollehs
 
-        SOLUTION:
+        // SOLUTION: 
         Scanner scanner = new Scanner(System.in);
 		String text = scanner.nextLine();
 		char[] arr = text.toCharArray();
@@ -415,6 +415,36 @@ public class Solution {
 		for(int x = arr.length-1; x >= 0; x--){
 			System.out.print(arr[x]);
 		}
+    //    CHALLENGE: INRODUCING THE METHODS, PARAMETER TYPE METHODS AND RETURN TYPE METHODS 
+    // Method Return Types
 
+
+    // You are an assistant on a TV show where celebrities are dancing and 4 judges evaluate their performance and give them a score between 1 and 10.
+   // The program you are given takes the scores as input.
+   // Complete the method to take them as parameters, then calculate and return the average score.
+
+   // Sample Input
+   // 6.0
+  // 4.0
+  // 5.0
+  // 3.0
+
+  // Sample Output
+  // 4.5
+
+
+    // SOLUTION: 
+       Scanner read = new Scanner(System.in);
+       double score1 = read.nextDouble();
+       double score2 = read.nextDouble();
+       double score3 = read.nextDouble();
+       double score4 = read.nextDouble();
+       double avgScore = getAverageScore(score1, score2, score3, score4);
+       System.out.println(avgScore);
+   }
+
+    // create your method here
+    public static double getAverageScore(double x, double y, double z, double e) {
+        return (x + y + z + e) / 4;
     }
-}
+}}

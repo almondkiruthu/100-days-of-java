@@ -240,7 +240,7 @@ public class Solution {
         // CHALLENGE: TO DESIGN A PROGRAM THAT CALCULATE THE FACTORIAL OF ANY NUMBER
 
         // Section to input the given number
-        // Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
         // SOLUTION:
@@ -271,7 +271,7 @@ public class Solution {
 
         // #TAKES AN INPUT FROM THE USER
 
-        // Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         for (int n = scanner.nextInt(); n > 0; n--) {
             System.out.println("Welcome");
@@ -297,7 +297,7 @@ public class Solution {
 
         // #TAKES AN INPUT FROM THE USER
 
-        // Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         int password;
 
@@ -380,18 +380,41 @@ public class Solution {
 
         // SOLUTION:
 
-        // TAKES THE INPUT FROM THE USER 
-        // Scanner scanner = new Scanner(System.in);
-        // int length = scanner.nextInt();
-        // int[] sides = new int[length];
-        // for (int i = 0; i < length; i++) {
-        //     sides[i] = scanner.nextInt();
-        // }
+        // TAKES THE INPUT FROM THE USER
+        Scanner scanner = new Scanner(System.in);
+        int length = scanner.nextInt();
+        int[] sides = new int[length];
+        for (int i = 0; i < length; i++) {
+            sides[i] = scanner.nextInt();
+        }
         // your code goes here
-        for (int t : sides ) {
+        for (int t : sides) {
             t = t * t;
             System.out.println(t);
         }
+
+        // THE REVERSE STRING ARRAY CHALLENGE:
+        // Reverse a String
+
+        // Write a program to take a string as input and output its reverse.
+        // The given code takes a string as input and converts it into a char array,
+        // which contains letters of the string as its elements.
+
+        // Sample Input:
+        // hello there
+
+        // Sample Output:
+        // ereht ollehs
+
+        SOLUTION:
+        Scanner scanner = new Scanner(System.in);
+		String text = scanner.nextLine();
+		char[] arr = text.toCharArray();
+		
+		//your code goes here
+		for(int x = arr.length-1; x >= 0; x--){
+			System.out.print(arr[x]);
+		}
 
     }
 }

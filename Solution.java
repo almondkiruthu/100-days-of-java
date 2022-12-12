@@ -447,6 +447,13 @@ public class Solution {
         return (x + y + z + e) / 4;
     }
     // codeeee come and code the fun bit
+
+    //  Declaring classes 
+    public class Animal {
+        void bark() {
+          System.out.println("Woof-Woof");
+        }
+      }
 }
 
 }

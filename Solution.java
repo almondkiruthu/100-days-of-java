@@ -684,6 +684,3 @@ class Ticket {
        return seat;
    }
 }
-// Getters and etters are things that One needs a lot to practice alot.
-// CODE GYM AIGHT 
-// It's January let's hit up with code 

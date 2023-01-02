@@ -684,3 +684,4 @@ class Ticket {
        return seat;
    }
 }
+// If I werer to ask you Almond, what's the reason behind you learning Java. 

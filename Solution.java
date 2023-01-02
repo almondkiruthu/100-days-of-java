@@ -686,3 +686,4 @@ class Ticket {
 }
 // If I were to ask you Almond, what's the reason behind you learning Java. 
 // Today I have seen my mum suffer and wondering where they are going to get money for my school fees 
+// I will work hard to achive my goals and help us gain finances 

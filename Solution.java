@@ -684,3 +684,24 @@ class Ticket {
        return seat;
    }
 }
+// The code problem that challenges everyone 
+public class MyClass {
+    public static void main(String[ ] args) {
+        int x = 5;
+        addOneTo(x);
+        System.out.println(x);       
+    }
+
+    static void addOneTo(int num) {
+        num = num + 1;
+    }
+}
+// Explanation 
+// This is so simple, when we call the function (addOneTo) we pass 'x' as an argument, meaning that we pass the copy of the value 'x'. 
+// So whatever changes made to the copy it will not be reflected in the 
+// original variable 'x'. 
+// Here 'x' and 'num' are both different variables.
+// Secondly there is no RETURN STATEMENT in the (addOneTo) function, to return the 
+// result. 
+// Thirdly we are printing the value of 'x' not the value of 'num' 
+// That is why the answer is 5

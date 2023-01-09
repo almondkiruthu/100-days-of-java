@@ -706,6 +706,3 @@ public class MyClass {
 // Thirdly we are printing the value of 'x' not the value of 'num' 
 // That is why the answer is 5
 
-
-// Java I am back 
-// Deliverance_Of_The_Brain_DR._D._K._OLUKOYA[1].pdf-am ""

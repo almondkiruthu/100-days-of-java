@@ -705,4 +705,3 @@ public class MyClass {
 // result. 
 // Thirdly we are printing the value of 'x' not the value of 'num' 
 // That is why the answer is 5
-
